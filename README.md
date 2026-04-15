@@ -6,6 +6,7 @@
 [![Potential](https://img.shields.io/badge/Potential-EAM%2FAlloy-green)](https://docs.lammps.org/pair_eam.html)
 
 A LAMMPS input script for performing **uniaxial shearing** of an aluminum sheet using a tungsten punch and a tungsten L-die at the atomistic scale. The script models a periodic Al FCC sheet clamped between a rigid W die (left/bottom) and a downward-driven W punch (right), capturing full force–displacement response, per-atom von Mises stress evolution, and punch force partitioning against the Al mobile region.
+<img width="1600" height="1200" alt="shearing2" src="https://github.com/user-attachments/assets/b6fe074c-fd6c-4092-bad2-742d369aa826" />
 
 ---
 
