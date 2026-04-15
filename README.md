@@ -143,8 +143,8 @@ RIGID       # for fix rigid/nve
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
-   cd <repo-name>
+   git clone https://github.com/Computational-Materials-Research-Group/Atomistic-Shearing-of-Al-Sheet-with-W-Punch-and-W-L-Die.git
+   cd Atomistic-Shearing-of-Al-Sheet-with-W-Punch-and-W-L-Die
    ```
 
 2. **Place the potential file** in the same directory as the input script:
