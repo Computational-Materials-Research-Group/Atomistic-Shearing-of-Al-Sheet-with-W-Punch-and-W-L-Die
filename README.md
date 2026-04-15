@@ -6,7 +6,6 @@
 [![Potential](https://img.shields.io/badge/Potential-EAM%2FAlloy-green)](https://docs.lammps.org/pair_eam.html)
 
 A LAMMPS input script for performing **uniaxial shearing** of an aluminum sheet using a tungsten punch and a tungsten L-die at the atomistic scale. The script models a periodic Al FCC sheet clamped between a rigid W die (left/bottom) and a downward-driven W punch (right), capturing full force–displacement response, per-atom von Mises stress evolution, and punch force partitioning against the Al mobile region.
-<img width="1600" height="1200" alt="shearing2" src="https://github.com/user-attachments/assets/b6fe074c-fd6c-4092-bad2-742d369aa826" />
 
 ---
 
@@ -242,6 +241,25 @@ ax.set_title("Shear Force–Displacement Curve — Al/W System")
 plt.tight_layout()
 plt.savefig("shear_force_displacement.png", dpi=150)
 ```
+
+---
+
+## Citation
+
+If you use this script or build upon it in your research, please cite:
+
+```bibtex
+@misc{mishra2026shearing,
+  author    = {Mishra, A.},
+  title     = {Atomistic Shearing of Al Sheet with W Punch and W L-Die},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.19591374},
+  url       = {https://doi.org/10.5281/zenodo.19591374}
+}
+```
+
+> Mishra, A. (2026). *Atomistic Shearing of Al Sheet with W Punch and W L-Die*. Zenodo. https://doi.org/10.5281/zenodo.19591374
 
 ---
 
